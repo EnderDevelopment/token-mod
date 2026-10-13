@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "tokensmod",
+  "version": "1.0.0",
+  "name": "Tokens Mod",
+  "description": "A mod that gives players random tokens with special abilities.",
+  "authors": ["YourName"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.arslaanuzair.tokensmod.TokensMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.15.7",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
